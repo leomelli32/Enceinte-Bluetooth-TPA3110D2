@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MP008288'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Multicomp Pro", "MP008288" (!) = "", "LEDC1608X60N", "LEDs Chip", "", "", "LED, Green, SMD, 0603 [1608 Metric], 20 mA, 2.3 V, 577 nm", "", "0.6 mm"
+END_PART
+
+END.

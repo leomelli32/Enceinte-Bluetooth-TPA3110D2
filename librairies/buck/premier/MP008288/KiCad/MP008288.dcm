@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MP008288
+D LED, Green, SMD, 0603 [1608 Metric], 20 mA, 2.3 V, 577 nm
+K
+F 
+$ENDCMP
+#
+#End Doc Library

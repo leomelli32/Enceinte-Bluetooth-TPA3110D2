@@ -1,0 +1,16 @@
+.TPA3110D2PWPR :1 ;15W Filter-Free Class D Stereo Amplifier with SpeakerGuard (TPA3110)
+SOP65P640X120-29N
+*STM IC
+*NGS
+*PLB 1="'SD'" 2="'FAULT'" 3="LINP" 4="LINN" 5="GAIN0" 6="GAIN1" 7="AVCC" 8="AGND" 9="GVDD" 10="PLIMIT" 11="RINN" 12="RINP" 13="NC" 14="PBTL" 15="PVCCR_1" 16="PVCCR_2" 17="BSPR" 18="OUTPR" 19="PGND_1" 20="OUTNR" 21="BSNR" 22="BSNL" 23="OUTNL" 24="PGND_2" 25="OUTPL" 26="BSPL" 27="PVCCL_1" 28="PVCCL_2" 29="EP"
+*MXP 29
+*DFN TPA3110D2PWPR
+~!Mouser Part Number (595-TPA3110D2PWPR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPA3110D2PWPR?qs=%252BoZa6nMD7VvnY6EEHpn2MA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPA3110D2PWPR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tpa3110d2)
+~!Height (1.2mm)
+~!3D_Model (TPA3110D2PWPR)
+TPA3110D2PWPR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

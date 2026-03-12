@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_16093096"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-29-12:04:38)
+    (utime 2024-05-01-11:50:28)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MP008288")
+)
+
+
+(pinAssign "ECS_16093096"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-29-12:04:38)
+    (utime 2024-05-01-11:50:28)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16093096")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MP008288")
+)
+
+
+(part "MP008288"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-01-29-12:04:38)
+    (utime 2024-05-01-11:50:28)
+    (packageRef "MP008288")
+    (pinAssignRef "ECS_16093096")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "LED, Green, SMD, 0603 [1608 Metric], 20 mA, 2.3 V, 577 nm")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Multicomp Pro")
+    (property "Manufacturer_Part_Number" "MP008288")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 0.6)
+)
+
+

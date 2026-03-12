@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPA3110D2PWPR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=29
+Version=4.1
+Released=2017-01-12 12:59:53
+Downloaded=2026-02-11 07:56:02
+3D=Y

@@ -1,0 +1,16 @@
+.MP008288 :1 ;LED, Green, SMD, 0603 [1608 Metric], 20 mA, 2.3 V, 577 nm
+LEDC1608X60N
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN MP008288
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Multicomp Pro)
+~!Manufacturer_Part_Number (MP008288)
+~!Link Datasheet (-)
+~!Height (0.6mm)
+~!3D_Model (MP008288)
+MP008288
+1.1!U 2.1!U 

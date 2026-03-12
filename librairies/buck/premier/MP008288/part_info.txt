@@ -1,0 +1,9 @@
+Manufacturer=Multicomp Pro
+PartNumber=MP008288
+PartCategory=LED
+PackageCategory=LEDs Chip
+PinCount=2
+Version=4.2
+Released=2024-01-29 12:04:38
+Downloaded=2026-01-20 10:09:42
+3D=Y

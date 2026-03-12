@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPA3110D2PWPR
+D 15W Filter-Free Class D Stereo Amplifier with SpeakerGuard (TPA3110)
+K
+F http://www.ti.com/lit/gpn/tpa3110d2
+$ENDCMP
+#
+#End Doc Library
