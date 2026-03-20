@@ -5,6 +5,113 @@
 	(uuid "2eeae04b-0e0c-4fec-93cf-ed0923877c63")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1495,6 +1602,12 @@
 		(uuid "0c5b67dd-92c2-4062-ba8b-7a05cbd09ed5")
 	)
 	(junction
+		(at 189.23 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1019629b-b1ae-4445-9e80-e31b4f7f5f38")
+	)
+	(junction
 		(at 76.2 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1531,10 +1644,22 @@
 		(uuid "3dedaa03-fc76-4442-8ddb-6835941d0325")
 	)
 	(junction
+		(at 189.23 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f7aaf48-bf53-4ba7-b6e4-be8fb13b11c8")
+	)
+	(junction
 		(at 168.91 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "465116e0-9558-4d4b-996f-383fe1aaf7e0")
+	)
+	(junction
+		(at 189.23 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f66e91-af39-4d6b-b636-9564fe38801e")
 	)
 	(junction
 		(at 168.91 106.68)
@@ -1577,6 +1702,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f9ce21b-9b2d-41cd-8c6c-77cb29949f48")
+	)
+	(junction
+		(at 189.23 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc2c124-5514-458a-9265-c5eba252bd8c")
 	)
 	(junction
 		(at 168.91 121.92)
@@ -1643,6 +1774,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7ba666-c388-4aac-b99b-c34bdfd65b9a")
+	)
+	(wire
+		(pts
+			(xy 189.23 99.06) (xy 195.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00729032-9574-4138-8e8c-221fe1e27441")
 	)
 	(wire
 		(pts
@@ -1716,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 195.58 76.2)
+			(xy 185.42 76.2) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 195.58 99.06)
+			(xy 168.91 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1773,6 +1914,16 @@
 			(type default)
 		)
 		(uuid "28ce5d90-3079-4e75-bf5f-0fd7d35cd259")
+	)
+	(wire
+		(pts
+			(xy 189.23 73.66) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6b07e5-0cdb-407c-a7a9-e1519aed7507")
 	)
 	(wire
 		(pts
@@ -1816,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 195.58 101.6)
+			(xy 185.42 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1883,6 +2034,16 @@
 			(type default)
 		)
 		(uuid "4da4349c-d914-4ec2-b529-5a951e056097")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e60e48e-f4cb-4e88-b919-18ec953ba56e")
 	)
 	(wire
 		(pts
@@ -2046,6 +2207,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793db573-5c33-408b-936d-d7e162957dbe")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 148.59 76.2)
 		)
 		(stroke
@@ -2116,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 195.58 73.66)
+			(xy 168.91 73.66) (xy 189.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0020a8b5-0c4f-4b09-9896-dff6d16a684a")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 151.1363 64.77 90)
 			(effects
 				(font
@@ -2468,7 +2639,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "036a5b91-75c0-479a-86ca-7db263f4eaa2")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 81.788 92.964 90)
 			(effects
 				(font
@@ -2535,7 +2706,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2551,7 +2722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "057bd503-1915-46f6-87b9-08d914c3933c")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 140.97 41.9162 0)
 			(effects
 				(font
@@ -2605,7 +2776,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2621,7 +2792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fc9d621-cec3-4d6d-843a-507dae495665")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 91.4463 95.25 90)
 			(effects
 				(font
@@ -2673,7 +2844,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2689,7 +2860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "109923b7-267d-49a1-afc2-6573dd28a9d6")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 162.56 123.1962 0)
 			(effects
 				(font
@@ -2743,7 +2914,76 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C19")
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 189.23 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11431713-428e-4d21-bc2a-1d1dcd170ae4")
+		(property "Reference" "TP5"
+			(at 191.77 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.77 97.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32ed735-d65c-48ff-90d8-c9a731a42da7")
+		)
+		(instances
+			(project "Enceinte"
+				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -2759,7 +2999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f3fa84-9969-4790-b0ea-415af519d479")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 171.45 74.9235 0)
 			(effects
 				(font
@@ -2813,7 +3053,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2829,7 +3069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eacce26-71c0-48db-8563-f89ee046ee7d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 130.81 143.51 0)
 			(effects
 				(font
@@ -2879,7 +3119,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2895,7 +3135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ed2d654-4b47-46e3-8422-7c0136ef3264")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 104.14 77.4635 0)
 			(effects
 				(font
@@ -2949,7 +3189,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4fcac5-f662-4c90-98a3-abe1f7186be3")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 124.46 41.9162 0)
 			(effects
 				(font
@@ -3089,7 +3329,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3104,7 +3344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c3df0be-6f61-4efe-b07e-4dc9204892a5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 177.8 113.03 0)
 			(effects
 				(font
@@ -3154,7 +3394,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f228211-48d2-474c-9f27-16598c5615cc")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 148.59 113.03 0)
 			(effects
 				(font
@@ -3221,7 +3461,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3237,7 +3477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3253e450-db4b-47e9-aa1b-b844fa265ff4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 195.58 85.09 0)
 			(effects
 				(font
@@ -3288,7 +3528,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3362,6 +3602,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 189.23 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49845d1b-5b89-405d-bf99-fa9fe9119808")
+		(property "Reference" "TP6"
+			(at 186.69 106.1721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 186.69 103.6321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbdb128-cfb6-4534-8da8-1346b7b41aa1")
+		)
+		(instances
+			(project "Enceinte"
+				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 200.66 76.2 0)
 		(unit 1)
@@ -3371,7 +3680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b938223-941d-44df-ae5b-b79574b29202")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 203.2 74.9299 0)
 			(effects
 				(font
@@ -3389,7 +3698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -3428,7 +3737,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "553d49cf-3f7d-458d-b264-8569caeb1d19")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 68.58 91.44 0)
 			(effects
 				(font
@@ -3494,7 +3803,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3510,7 +3819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5793ee61-ef7e-4adc-b46b-bf5e2f6f1fde")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 171.45 123.1962 0)
 			(effects
 				(font
@@ -3564,7 +3873,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3580,7 +3889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a3581a2-6676-442b-9eda-02041017bea3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 69.85 102.87 0)
 			(effects
 				(font
@@ -3631,7 +3940,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3647,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f84ebb9-f8ea-48bb-9ddc-455e4093d82f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -3698,7 +4007,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3714,7 +4023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6195a74e-ca47-4dff-ad03-9fd811b5cee5")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 195.58 110.49 0)
 			(effects
 				(font
@@ -3765,7 +4074,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3781,7 +4090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "651d57e3-9f52-4ba2-93a2-95ebc9bdd465")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 148.59 125.73 0)
 			(effects
 				(font
@@ -3831,7 +4140,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3846,7 +4155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "664348e8-e548-4afe-a506-7acb8c848069")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 153.416 81.28 90)
 			(effects
 				(font
@@ -3898,7 +4207,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3914,7 +4223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69c658bc-adbb-4877-9bb9-cd47ccbc4ec5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR020"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -3964,7 +4273,76 @@
 		(instances
 			(project ""
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR030")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 189.23 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70033867-a8b2-4ae4-b2e5-bff0030dc7f7")
+		(property "Reference" "TP4"
+			(at 186.69 80.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 186.69 78.2321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb315d7-fbe5-4157-937c-61a7d5c00c08")
+		)
+		(instances
+			(project "Enceinte"
+				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3980,7 +4358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "710b158d-c794-4767-83e1-b5a3195af344")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -4031,7 +4409,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d44ee0-e4a7-4601-8a31-bf3a74f5b400")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -4097,7 +4475,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7835c462-56e7-4793-aa25-5f4e575b0237")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 151.1363 90.17 90)
 			(effects
 				(font
@@ -4165,7 +4543,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4181,7 +4559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "849602a2-9c32-410f-a736-83e35da6f2c5")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 171.45 100.3235 0)
 			(effects
 				(font
@@ -4235,7 +4613,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4251,7 +4629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7123dd-516c-4846-9feb-4eb1b220429e")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 171.45 110.4962 0)
 			(effects
 				(font
@@ -4305,7 +4683,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d1f15f2-9c5f-468c-b803-b7fe1e84ba0e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 67.31 113.03 0)
 			(effects
 				(font
@@ -4372,7 +4750,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4387,7 +4765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afaba7b9-22ed-42eb-9a9b-0541723c99b3")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 93.472 115.824 90)
 			(effects
 				(font
@@ -4439,7 +4817,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4523,7 +4901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55ae67d-9fff-4126-b4c6-bdc11ffc16f7")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 78.74 97.7835 0)
 			(effects
 				(font
@@ -4577,7 +4955,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4663,7 +5041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c266de3c-dd9b-472d-9133-2ddf76543380")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 162.56 68.58 90)
 			(effects
 				(font
@@ -4715,7 +5093,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4731,7 +5109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3614b29-a7f2-4c49-9eed-7a45aa2b6fec")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 162.56 83.82 90)
 			(effects
 				(font
@@ -4783,7 +5161,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4799,7 +5177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3bca92f-ff47-43f0-aac1-ec8a93530eac")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -4850,7 +5228,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4866,7 +5244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c60e1987-ba29-49ea-b342-0b5805047f06")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 179.07 123.1962 0)
 			(effects
 				(font
@@ -4920,7 +5298,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4935,7 +5313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7fc8b6a-e7da-45d6-8638-e885ad131910")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 177.8 87.63 0)
 			(effects
 				(font
@@ -4985,7 +5363,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9063db4-da43-4835-b5ce-2303b39d1fa5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 168.91 133.35 0)
 			(effects
 				(font
@@ -5051,7 +5429,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caaec454-7c58-484a-aed3-f9cdd7bbd10e")
-		(property "Reference" "L4"
+		(property "Reference" "L5"
 			(at 162.56 109.22 90)
 			(effects
 				(font
@@ -5119,7 +5497,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "L4")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -5336,7 +5714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0485cf-ce92-43b7-b1ea-4623890dced2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 113.03 133.35 0)
 			(effects
 				(font
@@ -5387,7 +5765,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5402,7 +5780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d579200c-b32a-433f-be4e-462035c349c0")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 105.4038 114.3 90)
 			(effects
 				(font
@@ -5456,7 +5834,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf59829-2e7a-445b-b39b-ca6b1ef48c2e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 113.03 87.63 0)
 			(effects
 				(font
@@ -5523,7 +5901,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5539,7 +5917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def4087f-cb3d-451f-bbba-3936030ac73e")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 151.1363 105.41 90)
 			(effects
 				(font
@@ -5591,7 +5969,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5607,7 +5985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1078d69-e04c-49de-9f81-089a287f5f3c")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 133.35 41.9162 0)
 			(effects
 				(font
@@ -5661,7 +6039,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5677,7 +6055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8706227-9d5f-43d6-88bd-bd4f985fa087")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 162.56 93.98 90)
 			(effects
 				(font
@@ -5729,7 +6107,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -5744,7 +6122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed75f2c6-5795-43ed-a167-29ede5bc8017")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 99.822 69.596 90)
 			(effects
 				(font
@@ -5796,7 +6174,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5812,7 +6190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12f2510-c084-434f-97ac-6008655ad992")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -5862,7 +6240,76 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "#PWR015")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 189.23 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f61858b1-90cc-404a-85f7-337ef2c18a2f")
+		(property "Reference" "TP3"
+			(at 191.77 69.0879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.77 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 189.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71e3e1e4-0165-4ec6-8e55-f23580c402bd")
+		)
+		(instances
+			(project "Enceinte"
+				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5878,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2ccc8a-8503-4e25-a91a-a4282ac18f1a")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 171.45 85.0962 0)
 			(effects
 				(font
@@ -5932,7 +6379,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5948,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe3b2aa4-5e95-4d54-83f0-b815d64e4835")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 203.2 100.3299 0)
 			(effects
 				(font
@@ -5966,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -6005,7 +6452,7 @@
 		(instances
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
