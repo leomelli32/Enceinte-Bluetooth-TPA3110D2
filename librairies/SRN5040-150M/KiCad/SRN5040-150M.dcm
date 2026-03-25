@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRN5040-150M
+D Inductor SMD semi-shielded 15uH 5x5mm Bourns SRN5040 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 15 uH +/-20% 1.8A Idc
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRN5040.pdf
+$ENDCMP
+#
+#End Doc Library

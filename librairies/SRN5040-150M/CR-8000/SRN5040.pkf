@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SRN5040"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SRN5040")
+        (spec "default")
+    )
+)
