@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CWF1612A-R10K
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2025-04-04 16:29:42
+Downloaded=2026-03-25 15:34:33
+3D=Y

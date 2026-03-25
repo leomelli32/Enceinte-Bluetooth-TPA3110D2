@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CWF1612A-R10K"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-04-04-16:27:05)
+    (mountForm default
+        (footprintRef "CWF1612A100J")
+        (spec "System")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CWF1612A_R10K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CWF1612A-R10K" (!) = "", "CWF1612A100J", "Other", "", "", "Ind,1.65x1.15x1.05mm,0.1uH+/-10%,1.5A,", "https://www.bourns.com/docs/Product-Datasheets/CWF1612A.pdf", "1.15 mm"
+END_PART
+
+END.

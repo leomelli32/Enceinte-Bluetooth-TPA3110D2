@@ -1,0 +1,16 @@
+.CWF1612A-R10K :1 ;Ind,1.65x1.15x1.05mm,0.1uH+/-10%,1.5A,
+CWF1612A100J
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CWF1612A-R10K
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CWF1612A-R10K)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/CWF1612A.pdf)
+~!Height (1.15mm)
+~!3D_Model (CWF1612A-R10K)
+CWF1612A-R10K
+1.1!U 2.1!U 

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_20443419"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-04-04-16:29:42)
+    (utime 2025-04-04-16:29:42)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CWF1612A-R10K")
+)
+
+
+(pinAssign "ECS_20443419"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-04-04-16:29:42)
+    (utime 2025-04-04-16:29:42)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_20443419")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CWF1612A-R10K")
+)
+
+
+(part "CWF1612A-R10K"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-04-04-16:29:42)
+    (utime 2025-04-04-16:29:42)
+    (packageRef "CWF1612A-R10K")
+    (pinAssignRef "ECS_20443419")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Ind,1.65x1.15x1.05mm,0.1uH+/-10%,1.5A,")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "CWF1612A-R10K")
+    (property "Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/CWF1612A.pdf")
+    (property "compAreaTopHeight" 1.15)
+)
+
+

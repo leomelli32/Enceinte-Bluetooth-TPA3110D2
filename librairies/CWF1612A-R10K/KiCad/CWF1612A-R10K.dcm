@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CWF1612A-R10K
+D Ind,1.65x1.15x1.05mm,0.1uH+/-10%,1.5A,
+K
+F https://www.bourns.com/docs/Product-Datasheets/CWF1612A.pdf
+$ENDCMP
+#
+#End Doc Library

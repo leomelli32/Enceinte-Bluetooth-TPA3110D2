@@ -3045,7 +3045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Library_inductance_new:CWF1612A100J"
 			(at 45.72 151.13 0)
 			(effects
 				(font
