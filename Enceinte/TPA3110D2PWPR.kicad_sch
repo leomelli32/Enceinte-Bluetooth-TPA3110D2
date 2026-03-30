@@ -5,113 +5,6 @@
 	(uuid "2eeae04b-0e0c-4fec-93cf-ed0923877c63")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1585,6 +1478,16 @@
 		)
 		(uuid "74a356c5-f2e6-41c2-b09d-27db0e88be73")
 	)
+	(text "7447789115"
+		(exclude_from_sim no)
+		(at 173.736 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "896d7e9f-bdbb-4d00-ba29-1ad410afc62f")
+	)
 	(text "Haut parleur 1"
 		(exclude_from_sim no)
 		(at 201.676 83.312 0)
@@ -1600,12 +1503,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c5b67dd-92c2-4062-ba8b-7a05cbd09ed5")
-	)
-	(junction
-		(at 189.23 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1019629b-b1ae-4445-9e80-e31b4f7f5f38")
 	)
 	(junction
 		(at 76.2 96.52)
@@ -1644,22 +1541,10 @@
 		(uuid "3dedaa03-fc76-4442-8ddb-6835941d0325")
 	)
 	(junction
-		(at 189.23 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f7aaf48-bf53-4ba7-b6e4-be8fb13b11c8")
-	)
-	(junction
 		(at 168.91 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "465116e0-9558-4d4b-996f-383fe1aaf7e0")
-	)
-	(junction
-		(at 189.23 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59f66e91-af39-4d6b-b636-9564fe38801e")
 	)
 	(junction
 		(at 168.91 106.68)
@@ -1702,12 +1587,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f9ce21b-9b2d-41cd-8c6c-77cb29949f48")
-	)
-	(junction
-		(at 189.23 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cc2c124-5514-458a-9265-c5eba252bd8c")
 	)
 	(junction
 		(at 168.91 121.92)
@@ -1774,16 +1653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7ba666-c388-4aac-b99b-c34bdfd65b9a")
-	)
-	(wire
-		(pts
-			(xy 189.23 99.06) (xy 195.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00729032-9574-4138-8e8c-221fe1e27441")
 	)
 	(wire
 		(pts
@@ -1857,16 +1726,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 189.23 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec82052-64a3-4b0a-92a9-ea526c77a94c")
-	)
-	(wire
-		(pts
 			(xy 97.79 60.96) (xy 104.14 60.96)
 		)
 		(stroke
@@ -1897,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 189.23 99.06)
+			(xy 168.91 99.06) (xy 195.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 73.66) (xy 195.58 73.66)
+			(xy 168.91 73.66) (xy 195.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1964,16 +1823,6 @@
 			(type default)
 		)
 		(uuid "390c6f7f-8c98-4424-acc6-ced70d41d422")
-	)
-	(wire
-		(pts
-			(xy 185.42 101.6) (xy 189.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39a11714-ac11-44a8-99c8-b1a136a3b8df")
 	)
 	(wire
 		(pts
@@ -2037,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 101.6) (xy 195.58 101.6)
+			(xy 185.42 101.6) (xy 195.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 76.2) (xy 195.58 76.2)
+			(xy 185.42 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2284,16 +2133,6 @@
 			(type default)
 		)
 		(uuid "8c6fb386-2bfe-4718-8f2a-eb77dddd4b4d")
-	)
-	(wire
-		(pts
-			(xy 168.91 73.66) (xy 189.23 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9218cf8a-fe33-446e-9af6-20e676bc7aff")
 	)
 	(wire
 		(pts
@@ -2921,75 +2760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 189.23 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11431713-428e-4d21-bc2a-1d1dcd170ae4")
-		(property "Reference" "TP5"
-			(at 191.77 94.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 97.0279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 194.31 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f32ed735-d65c-48ff-90d8-c9a731a42da7")
-		)
-		(instances
-			(project "Enceinte"
-				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 168.91 76.2 180)
 		(unit 1)
@@ -3602,75 +3372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 189.23 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49845d1b-5b89-405d-bf99-fa9fe9119808")
-		(property "Reference" "TP6"
-			(at 186.69 106.1721 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 186.69 103.6321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dbdb128-cfb6-4534-8da8-1346b7b41aa1")
-		)
-		(instances
-			(project "Enceinte"
-				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 200.66 76.2 0)
 		(unit 1)
@@ -4274,75 +3975,6 @@
 			(project ""
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 189.23 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70033867-a8b2-4ae4-b2e5-bff0030dc7f7")
-		(property "Reference" "TP4"
-			(at 186.69 80.7721 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 186.69 78.2321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeb315d7-fbe5-4157-937c-61a7d5c00c08")
-		)
-		(instances
-			(project "Enceinte"
-				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5057,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_inductance_new:SRN5040"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -5125,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_inductance_new:SRN5040"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -5461,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_inductance_new:SRN5040"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345"
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -6071,7 +5703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_inductance_new:SRN5040"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-7345"
 			(at 162.56 99.06 0)
 			(effects
 				(font
@@ -6241,75 +5873,6 @@
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 189.23 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f61858b1-90cc-404a-85f7-337ef2c18a2f")
-		(property "Reference" "TP3"
-			(at 191.77 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 191.77 71.6279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 194.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 189.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71e3e1e4-0165-4ec6-8e55-f23580c402bd")
-		)
-		(instances
-			(project "Enceinte"
-				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c/8562858b-56a1-4ab0-8b82-f38bf9de2d3c"
-					(reference "TP3")
 					(unit 1)
 				)
 			)

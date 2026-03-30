@@ -5,113 +5,6 @@
 	(uuid "7b437169-5795-4da0-84d7-3789a3b72d4c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2010,6 +1903,16 @@
 		)
 		(uuid "d0d5b954-7f5b-499c-a986-830cbf819a1b")
 	)
+	(text "744766001"
+		(exclude_from_sim no)
+		(at 45.72 141.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e023bdd0-9168-4d9a-a749-1366dc9448f3")
+	)
 	(text_box "AUDIO"
 		(exclude_from_sim no)
 		(at 29.21 22.86 0)
@@ -2159,12 +2062,6 @@
 		(uuid "d6d21814-c372-4e95-be56-a3d50a4cdbce")
 	)
 	(junction
-		(at 110.49 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d85136e5-5862-4324-a323-de40e2f825ef")
-	)
-	(junction
 		(at 73.66 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2254,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 151.13) (xy 115.57 151.13)
+			(xy 106.68 151.13) (xy 115.57 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2591,16 +2488,6 @@
 			(type default)
 		)
 		(uuid "b565ae23-7850-448b-a5de-f640b54fdf6a")
-	)
-	(wire
-		(pts
-			(xy 106.68 151.13) (xy 110.49 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad24927-fc54-4602-bfdf-53ea6381de4f")
 	)
 	(wire
 		(pts
@@ -3045,7 +2932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_inductance_new:CWF1612A100J"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_HCI-5040"
 			(at 45.72 151.13 0)
 			(effects
 				(font
@@ -4563,75 +4450,6 @@
 			(project "Enceinte"
 				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9429c5fc-6187-4eef-ba94-e8b42b967bac")
-		(property "Reference" "TP1"
-			(at 113.03 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 113.03 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 115.57 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 110.49 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba54258d-0998-4fae-9bfb-68ee9e78511b")
-		)
-		(instances
-			(project "Enceinte"
-				(path "/7b437169-5795-4da0-84d7-3789a3b72d4c"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
